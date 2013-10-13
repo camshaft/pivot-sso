@@ -11,6 +11,10 @@
     "url": "https://github.com/CamShaft/pivot-sso.git"
   },
   "author": "Cameron Bytheway <cameron@pivotapp.io>",
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.x.x"
+  },
   "bugs": {
     "url": "https://github.com/CamShaft/pivot-sso/issues"
   },
