@@ -1,0 +1,27 @@
+{
+  "name": "pivot-sso",
+  "version": "0.1.0",
+  "description": "Pivot third party SSO app",
+  "main": "app.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CamShaft/pivot-sso.git"
+  },
+  "author": "Cameron Bytheway <cameron@pivotapp.io>",
+  "bugs": {
+    "url": "https://github.com/CamShaft/pivot-sso/issues"
+  },
+  "dependencies": {
+    "passport-heroku-sso": "~0.1.0",
+    "passport": "~0.1.17",
+    "simple-stack-common": "~0.2.0",
+    "envs": "~0.1.4",
+    "simple-secrets": "~1.0.0",
+    "bitfield": "git://github.com/CamShaft/bitfield",
+    "smd": "~0.1.1",
+    "startup": "~0.2.2"
+  }
+}
